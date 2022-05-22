@@ -18,6 +18,6 @@
     "requiresCompatibilities": [
              "EC2"
     ],
-    "networkMode": "awsvpc",
+    "networkMode": "Bridge",
     "executionRoleArn": ROLE_ARN 
 }
