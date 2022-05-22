@@ -3,9 +3,9 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="875939094552"
         AWS_DEFAULT_REGION="us-east-1" 
-	CLUSTER_NAME="newcluster"
+	CLUSTER_NAME="manishnaman"
 	SERVICE_NAME="nodejs-container-service"
-	TASK_DEFINITION_NAME="manishtasdef"
+	TASK_DEFINITION_NAME="first-run-task-definition"
 	DESIRED_COUNT="2"
         IMAGE_REPO_NAME="demo"
         IMAGE_TAG="${env.BUILD_ID}"
