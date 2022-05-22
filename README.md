@@ -34,5 +34,6 @@ Aplication will be deployed in AWS ECS.
 
 4. Deploy the image
 
+It is made by Manish
 
 ## Notes
