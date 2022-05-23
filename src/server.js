@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end( <html-include src="my-html.html"></html-include> );
+    response.end("Hello, WE ARE MANISH, NAMAN AND GANGADHAR THIS SIDE");
 
 });
 
