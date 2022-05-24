@@ -1,0 +1,178 @@
+/* ####################### default styles ################################ */
+
+body{
+    outline: none;   
+    margin: 0;
+    padding: 0;
+    height:98vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 10vh;
+}
+footer{
+    background-color: #F2F2F2;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* ######################### custom styles ################################# */
+
+
+nav a:visited{
+    color: #545454;
+}
+
+.main-content a:visited{
+    color: #2643AB;
+}
+
+.container{
+    display: flex;
+    width: 99.5vw;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav a{
+    font-size: .85em;
+    color: #545454;
+}
+
+.menu{
+    flex-basis: 1.5em;
+    height: 1.5em;
+    opacity: 0.5;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.account{
+    border-radius: 50%;
+    width: 2em;
+    margin-right: 10px;
+}
+.account:hover{
+    box-shadow: 2px 2px 6px lightgray;
+}
+
+.flex-child{
+    padding: 7px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-right: 0 auto;
+}
+
+.google-logo{
+    padding-bottom: 30px;
+}
+.google-logo{
+    cursor: pointer;
+}
+.search-input{
+    background-image: url(./images/mic.png);
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+    
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+.search-input:hover{
+    box-shadow: 2px 2px 4px lightgray;
+}
+.links{
+    color: #545454;
+    font-size: .85em;
+}
+.links a{
+    padding: 8px;
+}
+button{
+    font-size: .9em;
+    margin: 5px;
+    padding: 8px 20px;
+    color: rgb(109, 112, 116);
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+}
+button:hover{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px lightgray;
+}
+footer{
+    position: fixed;
+    padding: 15px;
+    bottom: 0;
+    width: 99.9vw;
+}
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    text-align: right;
+    margin-right: 20px;
+}
+footer a{
+    padding: 8px;
+    font-size: .9em;
+    color: #7B8C98;
+}
+
+@media screen and (max-width: 680px){
+    
+    nav a{
+        font-size: 0.7em;
+    }
+
+    .main-content{
+        height: 70vh;
+    }
+    .google-logo{
+        max-width: 40%;
+        padding-bottom: 25px;
+
+    }
+    .search-input{
+        width: 70%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 0.7em;
+    }
+    button{
+        font-size: 0.6em;
+    }
+    
+    .links{
+        font-size: 0.7em;
+    }
+    .footer-left{
+        display: none;
+    }
+    .footer-right{
+        font-size: 0.7em;
+
+    }
+
+}
